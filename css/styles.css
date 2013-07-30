@@ -3,12 +3,12 @@
 /* ============================== */
 
 body {
-	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-	line-height: 1.5em;
+	font-family: "Comic Sans", Arial, Helvetica, Geneva, sans-serif;
+	line-height: 3.5em;
 }
 h1, h2, h3, h4, h5, h6 {
 	margin: 1em 0 .5em;
-	line-height: 1.4em;
+	line-height: 4.4em;
 	letter-spacing: .07em;
 }
 a {
@@ -20,7 +20,7 @@ header {
 	line-height: 100%;
 }
 .logo {
-	padding: 24px 0;
+	padding: 88px 0;
 	display: block;
 	float: left;
 	font-size: 36px;
@@ -36,7 +36,7 @@ header {
 }
 nav ul, nav ul li, nav ul li a {
 	display: block;
-	float: left;
+	float: right;
 }
 nav a{
 	font-size: 14px;
