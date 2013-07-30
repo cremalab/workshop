@@ -15,7 +15,7 @@ a {
 	text-decoration: none;
 }
 header {
-	background: #20b2aa;
+	background: pink;
 	letter-spacing: 1px;
 	line-height: 100%;
 }
@@ -26,8 +26,8 @@ header {
 	font-size: 36px;
 	font-weight: bold;
 	white-space: nowrap;
-	letter-spacing: 2px;
-	color: #8fd8d4;
+	letter-spacing: 20px;
+	color: yellow;
 	text-shadow: #1a9992 1px 1px 0;
 }
 .logo:hover {
