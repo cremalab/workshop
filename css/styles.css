@@ -1,0 +1,111 @@
+/* ============================== */
+/* ! Layout for desktop version   */
+/* ============================== */
+
+body {
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	line-height: 1.5em;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 1em 0 .5em;
+	line-height: 1.4em;
+	letter-spacing: .07em;
+}
+a {
+	text-decoration: none;
+}
+header {
+	background: #20b2aa;
+	letter-spacing: 1px;
+	line-height: 100%;
+}
+.logo {
+	padding: 24px 0;
+	display: block;
+	float: left;
+	font-size: 36px;
+	font-weight: bold;
+	white-space: nowrap;
+	letter-spacing: 2px;
+	color: #8fd8d4;
+	text-shadow: #1a9992 1px 1px 0;
+}
+.logo:hover {
+	color: #fff;
+	text-shadow: #20b2aa 1px 1px 0, #8fd8d4 2px 2px 0, #8fd8d4 3px 3px 0;
+}
+nav ul, nav ul li, nav ul li a {
+	display: block;
+	float: left;
+}
+nav a{
+	font-size: 14px;
+	padding: 13px 20px;
+	margin: 14px 0;
+	color: #8fd8d4;
+	text-shadow: #1a9992 1px 1px 0;
+	text-transform: uppercase;
+}
+nav a:hover {
+	color: #fff;
+	text-shadow: #20b2aa 1px 1px 0, #8fd8d4 2px 2px 0, #8fd8d4 3px 3px 0;
+}
+#content {
+	padding-bottom: 1.5em;
+}
+footer {
+	background: #8fd8d4;
+}
+.clear {
+	clear: both;
+}
+
+/* ================= */
+/* ! Sticky footer   */
+/* ================= */	
+	
+* {
+	margin: 0;
+}
+html, body {
+	height: 100%;
+}
+#stickyWrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -100px;
+}
+footer, #push {
+	height: 100px;
+}
+	
+
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 767px) {
+
+body {
+	
+}
+nav a{
+	margin: 0 5px 10px;
+}
+	
+}
+
+
+/* ========================================== */
+/* ! Provide higher res assets for iPhone 4   */
+/* ========================================== */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+
+/*	.logo {
+		background: url(logo2x.jpg) no-repeat;
+		background-size: 212px 303px;
+	}*/
+
+}
