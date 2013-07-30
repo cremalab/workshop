@@ -12,10 +12,10 @@ h1, h2, h3, h4, h5, h6 {
 	letter-spacing: .07em;
 }
 a {
-	text-decoration: none;
+	text-decoration: underline;
 }
 header {
-	background: pink;
+	background: #05c0af;
 	letter-spacing: 1px;
 	line-height: 100%;
 }
